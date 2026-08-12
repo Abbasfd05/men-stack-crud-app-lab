@@ -1,0 +1,21 @@
+{
+  "name": "men-stack-crud-app-lab",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Abbasfd05/men-stack-crud-app-lab#readme",
+  "bugs": {
+    "url": "https://github.com/Abbasfd05/men-stack-crud-app-lab/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abbasfd05/men-stack-crud-app-lab.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <a href="/plants">return to plants</a>
+     <h1>Plant:
+         <%= plant.name %></h1>
+     <h2>The description is 
+        <%= plant.description %></h2>
+   <form action="/plants/<%=plant._id%>?_method=DELETE" method="post">
+<button type="submit">Delete</button>
+<a href="/plants/<%=plant._id%>/edit">Edit</a>
+   </form>
+</body>
+</html>
